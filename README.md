@@ -1,1 +1,1 @@
-current working directory
+A script that switches the current user

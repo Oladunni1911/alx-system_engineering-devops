@@ -1,1 +1,1 @@
-A script that switches the current user
+This is the repository for my devops exercises

@@ -1,1 +1,1 @@
-a script describing what this is doing
+This is the repository for my devops exercises

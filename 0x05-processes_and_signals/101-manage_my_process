@@ -5,12 +5,12 @@
 
 start_p() {
     ./manage_my_process &
-    sudo echo $$ > /var/run/my_process.pid
+    echo $$ > /var/run/my_process.pid
 }
 
 stop_p() {
-    sudo rm /var/run/my_process.pid
-    sudo pkill -of manage_my_process
+    rm /var/run/my_process.pid
+    pkill -of manage_my_process
 }
 
 has_arg_1() {
